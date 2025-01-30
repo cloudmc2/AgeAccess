@@ -1,0 +1,167 @@
+body{
+    background-image: url(image/pexels-polina-tankilevitch-4523006.jpg);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /
+}
+#box1{
+    width: 800px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    margin-top: 250px;
+    background: rgb(183,38,6);
+    background: linear-gradient(90deg, rgba(183,38,6,1) 0%, rgba(0,0,0,1) 0%, rgba(138,134,134,1) 96%);
+opacity: 0.9;
+}
+#box2{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 120px;
+}
+#text1{
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+
+
+}
+#ageBox{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    padding: 5px 10px;
+	box-shadow:  0px 4px 12px #00000057;
+    border: none;
+}
+#submit{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 240px;
+  
+      appearance: none;
+      background-color: #000000;
+      border: 2px solid #1A1A1A;
+      border-radius: 10px;
+      box-sizing: border-box;
+      color: #dad5d5;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: normal;
+      min-height: 30px;
+      outline: none;
+      
+      text-align: center;
+      text-decoration: none;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 130px;
+      height: 40px;
+      will-change: transform;
+    }
+    
+    #submit:disabled {
+      pointer-events: none;
+    }
+    
+    #submit:hover {
+      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+      transform: translateY(-2px);
+    }
+    
+    #submit:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+
+      
+
+
+/*input design I got from uiverse.io*/
+
+/* From Uiverse.io by AbanoubMagdy1 */ 
+.wave-group {
+    position: absolute;
+    margin-top: 180px;
+
+    margin-left: 300px;
+  }
+  
+  .wave-group .input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+    color: white;
+  }
+  
+  .wave-group .input:focus {
+    outline: none;
+  }
+  
+  .wave-group .label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    display: flex;
+  }
+  
+  .wave-group .label-char {
+    transition: 0.2s ease all;
+    transition-delay: calc(var(--index) * .05s);
+  }
+  
+  .wave-group .input:focus ~ label .label-char,
+  .wave-group .input:valid ~ label .label-char {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #edeff3;
+  }
+  
+  .wave-group .bar {
+    position: relative;
+    display: block;
+    width: 200px;
+  }
+  
+  .wave-group .bar:before,.wave-group .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #edeff3;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  .wave-group .bar:before {
+    left: 50%;
+  }
+  
+  .wave-group .bar:after {
+    right: 50%;
+  }
+  
+  .wave-group .input:focus ~ .bar:before,
+  .wave-group .input:focus ~ .bar:after {
+    width: 50%;
+  }
+  
+  
